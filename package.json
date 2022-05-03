@@ -24,7 +24,8 @@
     "storybook": "start-storybook -p 9009",
     "test": "cross-env SKIP_PREFLIGHT_CHECK=true react-scripts test --env=jsdom",
     "test:ci": "npm run test:once",
-    "test:once": "cross-env SKIP_PREFLIGHT_CHECK=true CI=true react-scripts test --env=jsdom"
+    "test:once": "cross-env SKIP_PREFLIGHT_CHECK=true CI=true react-scripts test --env=jsdom",
+    "chromatic": "npx chromatic --project-token=742ec6a820c3"
   },
   "dependencies": {
     "@floating-ui/react-dom-interactions": "^0.4.0",
@@ -41,6 +42,7 @@
     "react-is": "17.0.2",
     "react-popper": "^2.2.5",
     "react-responsive-carousel": "3.2.21",
+    "storybook": "^6.4.22",
     "typeface-poppins": "1.1.13"
   },
   "devDependencies": {
