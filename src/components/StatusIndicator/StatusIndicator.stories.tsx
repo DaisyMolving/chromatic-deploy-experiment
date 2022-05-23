@@ -6,7 +6,7 @@ export default {
   component: StatusIndicator,
   title: 'Components/StatusIndicator',
   parameters: {
-    componentSubtitle: 'Short description of component.',
+    componentSubtitle: 'Iconography that conveys status, to be used alongside clarifying text.',
   },
 }
 
