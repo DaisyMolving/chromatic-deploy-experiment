@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
-import { tokens, base } from 'styles';
-
 const StatusIndicatorStyled = styled.div`
-  ${base}
+  background-color: aquamarine;
+  height: 20px;
+  width: 20px;
 `;
 
 export default StatusIndicatorStyled;
